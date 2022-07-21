@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+    margin-top: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    text-align: center;
+    float: right;
+    margin-left: 20px;
+}
+
+header h1{
+    font-size: 30px;
+}
+
+#about-me{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+#about-me #portrait-photo img{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#about-me #portrait-photo{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
