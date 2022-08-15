@@ -1,6 +1,10 @@
+html{
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);;
+}
+
 header {
     display: flex;
-    flex-basis: 100%;
+    flex-basis: auto;
     justify-content: space-between;
     margin-top: 25px;
     margin-left: 10%;
@@ -19,15 +23,21 @@ nav{
 
 #navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     list-style-type: none;
-
 }
 
 #headername{
     color: #696969;
 }
 
+#fflexc {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 li a {
     color: #696969;
     text-decoration: none;
@@ -52,3 +62,39 @@ li a:hover:after{
     width: 100%;
     background: #2f2d2d;
 }
+
+.firstcontainer{
+    flex: 2;
+}
+
+.secondcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+
+#evanphoto{
+    position: fixed;
+    right: auto;
+    background: radial-gradient(circle, rgba(255,255,255,1) 100%, rgba(80,74,66,0.4490838571756828) 100%);
+    border-radius: 50%;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.firstcontainer h2{
+    color: #2f2d2d;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.firstcontainer h3{
+    color: #a0a0a0;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+
